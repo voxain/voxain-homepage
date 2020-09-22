@@ -1,12 +1,13 @@
 body, html{
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     overflow: hidden;
     margin: 0;
     padding: 0;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 body{
@@ -14,5 +15,20 @@ body{
 }
 
 img{
-    width: 30%;
+    width: 30vw;
+}
+
+.main-body{
+    width: 30vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.main-body img{
+    width: 48px;
+    margin: 20px;
+    cursor: pointer;
 }
